@@ -1,6 +1,10 @@
 from django.db import models
+<<<<<<< HEAD
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, \
                                         PermissionsMixin
+=======
+from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
+>>>>>>> 5f70d2f4da3a95a54d03ac660b2d115f4ebff8b4
 
 
 class UserManager(BaseUserManager):
