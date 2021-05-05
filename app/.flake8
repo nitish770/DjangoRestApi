@@ -1,4 +1,6 @@
 [flake8]
+ignore =
+	W191
 exclude =
     migrations
     __pycache__,
